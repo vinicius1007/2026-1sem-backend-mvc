@@ -1,0 +1,29 @@
+{
+  "name": "2026-1sem-backend-mvc",
+  "version": "1.0.0",
+  "description": "Projeto para aprender API com MVC",
+  "keywords": [
+    "mvc"
+  ],
+  "homepage": "https://github.com/vinicius1007/2026-1sem-backend-mvc#readme",
+  "bugs": {
+    "url": "https://github.com/vinicius1007/2026-1sem-backend-mvc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicius1007/2026-1sem-backend-mvc.git"
+  },
+  "license": "ISC",
+  "author": "vinicius1007",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.14"
+  }
+}
