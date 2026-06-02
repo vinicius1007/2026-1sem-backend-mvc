@@ -1,13 +1,12 @@
-const listaUsuarios = [ 
+const listaUsuarios = [
     {
-    id: 1,
-    name: "Vinicius"
+        id: 1,
+        name: "João"
     },
     {
-    id: 2,
-    name: "Maria"
+        id: 2,
+        name: "Maria"
     },
 ]
-
 
 module.exports = listaUsuarios

@@ -1,22 +1,16 @@
-const express = require ("express")
+const express = require("express")
+const userRoutes = require("./routes/userRoutes")
 
-const userController = require ("./controllers/userController")
-
-const app =  express()
+const app = express()
 
 app.use(express.json())
 
 function callbackDaRaiz( request, response ) {
-    response.send("Tropa do mantem!")
+    response.send("VAI CORINTHIANS!!!! 🦅")
 }
-
 
 app.get("/", callbackDaRaiz)
 
-app.get("/users", userController.getAllUsers)
-
-app.get("/users/:id", userController.getUserById)
-
-app.post ("/users", userController.createUser)
+app.use("/users", userRoutes)
 
 module.exports = app
